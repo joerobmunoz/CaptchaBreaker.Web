@@ -39,6 +39,7 @@ if (Meteor.isServer) {
 		
 		Urls.remove({});
 		
+		// Mock data
 		if (Urls.find().count() === 0)
 		{
 			var urls = [
